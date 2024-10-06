@@ -1,0 +1,12 @@
+{
+    "name": "item_unlock",
+    "version": "1.0.0",
+    "data":[
+        {"id": 1, "stageLevel": 1, "itemId": 1},
+        {"id": 2, "stageLevel": 3, "itemId": 2},
+        {"id": 3, "stageLevel": 5, "itemId": 3},
+        {"id": 4, "stageLevel": 7, "itemId": 4},
+        {"id": 5, "stageLevel": 9, "itemId": 5},
+        {"id": 6, "stageLevel": 11, "itemId": 6}
+    ]
+}

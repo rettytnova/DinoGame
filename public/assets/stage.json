@@ -1,0 +1,17 @@
+{
+  "name": "stage",
+  "version": "1.0.0",
+  "data": [
+    { "level":  1, "totalScore": 100, "scorePerSecond": 1 },
+    { "level":  2, "totalScore": 200, "scorePerSecond": 1 },
+    { "level":  3, "totalScore": 400, "scorePerSecond": 2 },
+    { "level":  4, "totalScore": 600, "scorePerSecond": 2 },
+    { "level":  5, "totalScore": 1000, "scorePerSecond": 3 },
+    { "level":  6, "totalScore": 1400, "scorePerSecond": 3 },
+    { "level":  7, "totalScore": 2000, "scorePerSecond": 4 },
+    { "level":  8, "totalScore": 2600, "scorePerSecond": 4 },
+    { "level":  9, "totalScore": 3500, "scorePerSecond": 5 },
+    { "level":  10, "totalScore": 10000, "scorePerSecond": 5 },
+    { "level":  11, "totalScore": 15000, "scorePerSecond": 5 }
+  ]
+}
