@@ -33,7 +33,9 @@ export const handleEvent = (io, socket, data) => {
 
     const response = handler(data.userId, data.payload); 
 
+    // 브로드캐스트
     if (response.broadcast){
+        // 'broadcast'에 보내줄 페이로드 입력해서 client에서 받을 수 있도록 한다.
         io.emit('response', 'broadcast');
         return;
     }
