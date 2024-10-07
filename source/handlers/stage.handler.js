@@ -5,8 +5,6 @@ export const moveStageHandler = (userId, payload) => {
     
     // 유저의 현재 스테이지정보
     let currentStages = getStage(userId);
-    
-    console.log('[moveStageHandler]:currentStages: ', currentStages);
 
     if(!currentStages.length){
         return { status: 'fail', message: "No stages found for user"};
@@ -31,6 +29,5 @@ export const moveStageHandler = (userId, payload) => {
     }
     
     setStage(userId, payload.targetStage, serverTime);
-    console.log('스테이지 상승');
     return { status: `success! Stage => ${payload.targetStage}` };    
 };

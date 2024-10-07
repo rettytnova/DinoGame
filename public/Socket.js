@@ -8,7 +8,7 @@ const socket = io('http://52.78.95.168:3000', {
 
 let userId = null;
 socket.on('response', (data) => {
-  console.log(data);
+  //console.log(data);
 });
 
 socket.on('connection', (data) => {
